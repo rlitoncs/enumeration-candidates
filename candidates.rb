@@ -28,7 +28,15 @@ require 'active_support/all'
   {
     id: 10,
     years_of_experience: 3,
-    github_points: 232,
+    github_points: 301,
+    languages: ['Java', 'Ruby', 'JavaScript'],
+    date_applied: 12.days.ago.to_date,
+    age: 31
+  },
+  {
+    id: 10.5,
+    years_of_experience: 3,
+    github_points: 300,
     languages: ['Java', 'Ruby', 'JavaScript'],
     date_applied: 12.days.ago.to_date,
     age: 31
